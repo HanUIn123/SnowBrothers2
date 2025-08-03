@@ -1,10 +1,9 @@
 # Visual Studio 빌드/임시 폴더 무시
 .vs/
 x64/
+x86/
 Debug/
 Release/
-
-# 빌드 산출물 무시
 *.obj
 *.exe
 *.ilk
@@ -17,3 +16,41 @@ Release/
 *.user
 *.cache
 *.opensdf
+*.rsuser
+*.sln.docstates
+*.env
+*.userosscache
+
+# Bin / Obj / Log 등 기타 빌드 산출물
+**/[Bb]in/*
+**/[Oo]bj/*
+[Ll]og/
+[Ll]ogs/
+
+# NuGet / 패키지
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# VS Code 관련
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# 기타
+*.tmp
+*.tmp_proj
+*.bak
+*.publishsettings
+*.dbmdl
+*.mdf
+*.ldf
+*.sdf
+*.ncb
+*.aps
+*.opt
+*.tss
+*.jmconfig
+.history/
