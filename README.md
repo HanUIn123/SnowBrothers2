@@ -1,6 +1,6 @@
 # SnowBrothers2 (Windows API 기반 게임 프로젝트)
 
-![GameThumbnail](https://raw.githubusercontent.com/HanUn123/SnowBrothers2/main/Images/banner.png)
+![GameThumbnail](https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png)
 
 ## 📌 개요
 - Windows API를 활용한 2D 게임 모작 프로젝트
@@ -22,4 +22,4 @@
 ---
 
 ## 📷 스크린샷
-![스크린샷](https://raw.githubusercontent.com/HanUn123/SnowBrothers2/main/Images/screenshot.png)
+![스크린샷](https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png)
