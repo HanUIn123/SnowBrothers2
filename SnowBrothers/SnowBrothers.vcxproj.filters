@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Headers">
+      <UniqueIdentifier>{1c620d7a-e6f7-4a27-92d0-ffd0adcccb13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.WinMain">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="01.MainGame">
+      <UniqueIdentifier>{22958b40-34ee-4442-b3db-af248784c82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass">
+      <UniqueIdentifier>{362eb6df-f8f6-4b28-855d-d342dbc9f656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\01.BmpManager">
+      <UniqueIdentifier>{6f9d2189-64e8-4c99-926c-146e58713170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\01.BmpManager\UserBmp">
+      <UniqueIdentifier>{f55fc15f-0ea3-4738-a0de-6367dded773d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects">
+      <UniqueIdentifier>{e5817679-4d6d-47c1-87db-66d83838cac2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\00.Player">
+      <UniqueIdentifier>{aab003a4-1fac-4882-a51c-c3b427eb821b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\02.KeyManager">
+      <UniqueIdentifier>{c1139488-5762-4e81-aa38-62669a382de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\00.AbstractFactory">
+      <UniqueIdentifier>{365f35da-2e36-4aab-9512-d5c9bd322733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\03.ObjectManager">
+      <UniqueIdentifier>{18fb5d21-8d15-4f49-b42f-8a043fa1aab9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{89b5e50e-1b72-4b9f-85fa-a8813c7bba71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\04.SceneManager">
+      <UniqueIdentifier>{8fef285f-0283-47df-bda0-94c83946231b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\00.Logo">
+      <UniqueIdentifier>{9a9a4518-0248-4b15-9ff6-ee5941784bf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\01.Menu">
+      <UniqueIdentifier>{9e675989-77c6-44c2-be11-5476c26cf6d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\05.CollisionManager">
+      <UniqueIdentifier>{9924e1e5-5a35-4bd0-9ebd-595911a13b0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\02.Edit">
+      <UniqueIdentifier>{5fc08576-2d5e-4814-89d8-8fd55f4b76ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\06.TileManager">
+      <UniqueIdentifier>{302849c4-7358-48c1-a4aa-375190397526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\06.TileManager\Tile">
+      <UniqueIdentifier>{798c682b-c635-41ca-8707-09d2c61359d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\07.ScrollManager">
+      <UniqueIdentifier>{dffa1191-77af-4d08-aa32-caae29d63ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage">
+      <UniqueIdentifier>{cad76ee1-4599-4992-bd1a-9e920bb15a2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage\001.Stage01">
+      <UniqueIdentifier>{abe39bdc-ff4a-40aa-a3e9-165b51fff723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage\000.TuTorial">
+      <UniqueIdentifier>{15b5a08f-c6e4-46ec-84b2-11ef701fb257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\03.Item">
+      <UniqueIdentifier>{56d655c8-9a42-41e6-947e-86cd29c12d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\08.LineManager">
+      <UniqueIdentifier>{f9a48e1b-167d-4c16-a5d5-f5c9f58f0117}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\08.LineManager\Line">
+      <UniqueIdentifier>{f9d50cba-a9e6-44c3-862e-0ea5b1343229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\02.Bullet">
+      <UniqueIdentifier>{56c96ca1-02cc-4777-b9f6-9db2d741be03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster">
+      <UniqueIdentifier>{d67f4935-d4ef-4279-a33e-ed26608d575e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster\Monster01">
+      <UniqueIdentifier>{fe766d15-324b-4d56-80c8-2843be7bbca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager">
+      <UniqueIdentifier>{dab87b5b-e2b6-4538-94c2-614b0b1b2b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager\Ui">
+      <UniqueIdentifier>{b5e49c65-4381-4a21-909a-5474e77d2d22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager\00.Life">
+      <UniqueIdentifier>{4eb41e7f-a7af-4a32-a5fb-1e761415f361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\10.SpawnManager">
+      <UniqueIdentifier>{b69a81b5-1b64-443c-94ee-a23062990a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\10.SpawnManager\Spawn">
+      <UniqueIdentifier>{71a2f3ef-b84d-49bc-be20-ff63007501a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\11.SoundManager">
+      <UniqueIdentifier>{cc67840b-f6d3-4b5a-948b-8f24b25c12a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\05.SelectScene">
+      <UniqueIdentifier>{342693bd-0817-4ebb-828f-10491accfc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage\003.BossStage">
+      <UniqueIdentifier>{c3e9f0b2-7cfe-457b-8f49-c628065fa8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster\Boss01">
+      <UniqueIdentifier>{197f4639-044a-4e34-a391-0b741a7a8023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\12.PlayerManager">
+      <UniqueIdentifier>{45b65458-3401-48e6-b299-b8fc85a3cdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\13.MapManager">
+      <UniqueIdentifier>{bad3d308-4908-4708-b0a6-2d1b4316902a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster\Minions">
+      <UniqueIdentifier>{23bffa1a-cc51-4bb0-af24-03925fc8875e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\03.Item\00.Speed">
+      <UniqueIdentifier>{0e5b9f1d-5461-4343-9656-6cc50a56c583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\03.Item\01.Power">
+      <UniqueIdentifier>{5f3d34e8-46c0-4e9a-8da2-a9dbd4026546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\03.Item\02.Range">
+      <UniqueIdentifier>{978f3d46-61fd-438a-81ff-ba29d6f0edf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage\004.BossStage2">
+      <UniqueIdentifier>{ec7ef83b-919d-45f9-b366-799117ec7429}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster\Boss02">
+      <UniqueIdentifier>{a99b627e-8922-4c66-9276-df6a8d21dc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\02.Bullet\BossTwoBullet">
+      <UniqueIdentifier>{f0b3490f-4f56-40b1-93e2-ada1e4671f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\14.EffectManager">
+      <UniqueIdentifier>{a9edb6b4-8a39-4727-87c3-911b8c1c4d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager\01.BossTwoHp">
+      <UniqueIdentifier>{7ad207aa-9767-4d94-a682-7d8bb4cb1ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager\02.BossOneHp">
+      <UniqueIdentifier>{d0851331-7e77-4b9e-b563-7380d6a952e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\01.Monster\Monster02">
+      <UniqueIdentifier>{5e320c47-801a-40ab-98e6-25aadafb0de5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\02.Bullet\MonsterTwoBullet">
+      <UniqueIdentifier>{d6e6d7c6-1a7b-47e1-8d68-3fe393c438b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene\03.Stage\005.EndScene">
+      <UniqueIdentifier>{e78379da-2fc1-4e4c-a400-81ca4cdb425c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.ManagerClass\09.UiManager\03.Images">
+      <UniqueIdentifier>{f5100673-0201-4c0a-9239-a2172af8c853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Objects\03.Item\03.PointItem">
+      <UniqueIdentifier>{77574192-bc1d-4d3a-8583-bffc3d7fa084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowBrothers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>01.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpManager.h">
+      <Filter>02.ManagerClass\01.BmpManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserBmp.h">
+      <Filter>02.ManagerClass\01.BmpManager\UserBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Objects\00.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>03.Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>02.ManagerClass\02.KeyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>02.ManagerClass\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>02.ManagerClass\03.ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02.ManagerClass\04.SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>04.Scene\00.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02.ManagerClass\05.CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>04.Scene\02.Edit</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>02.ManagerClass\06.TileManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>02.ManagerClass\06.TileManager\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>02.ManagerClass\07.ScrollManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMenu.h">
+      <Filter>04.Scene\01.Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>04.Scene\03.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageOne.h">
+      <Filter>04.Scene\03.Stage\001.Stage01</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>04.Scene\03.Stage\000.TuTorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03.Objects\03.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>02.ManagerClass\08.LineManager\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="LineManager.h">
+      <Filter>02.ManagerClass\08.LineManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>03.Objects\02.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DefineCollection.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumDefine.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderDefine.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroDefine.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="StructDefine.h">
+      <Filter>헤더 파일\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03.Objects\01.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterOne.h">
+      <Filter>03.Objects\01.Monster\Monster01</Filter>
+    </ClInclude>
+    <ClInclude Include="UiManager.h">
+      <Filter>02.ManagerClass\09.UiManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>02.ManagerClass\09.UiManager\Ui</Filter>
+    </ClInclude>
+    <ClInclude Include="Life.h">
+      <Filter>02.ManagerClass\09.UiManager\00.Life</Filter>
+    </ClInclude>
+    <ClInclude Include="Spawn.h">
+      <Filter>02.ManagerClass\10.SpawnManager\Spawn</Filter>
+    </ClInclude>
+    <ClInclude Include="SpawnManager.h">
+      <Filter>02.ManagerClass\10.SpawnManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>02.ManagerClass\11.SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectScene.h">
+      <Filter>04.Scene\05.SelectScene</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStage.h">
+      <Filter>04.Scene\03.Stage\003.BossStage</Filter>
+    </ClInclude>
+    <ClInclude Include="BossOne.h">
+      <Filter>03.Objects\01.Monster\Boss01</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>02.ManagerClass\12.PlayerManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>02.ManagerClass\13.MapManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Minions.h">
+      <Filter>03.Objects\01.Monster\Minions</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedItem.h">
+      <Filter>03.Objects\03.Item\00.Speed</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerItem.h">
+      <Filter>03.Objects\03.Item\01.Power</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeItem.h">
+      <Filter>03.Objects\03.Item\02.Range</Filter>
+    </ClInclude>
+    <ClInclude Include="statelist.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStageTwo.h">
+      <Filter>04.Scene\03.Stage\004.BossStage2</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTwo.h">
+      <Filter>03.Objects\01.Monster\Boss02</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTwoBullet.h">
+      <Filter>03.Objects\02.Bullet\BossTwoBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>02.ManagerClass\14.EffectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTwoHp.h">
+      <Filter>02.ManagerClass\09.UiManager\01.BossTwoHp</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTwo.h">
+      <Filter>03.Objects\01.Monster\Monster02</Filter>
+    </ClInclude>
+    <ClInclude Include="BossOneHp.h">
+      <Filter>02.ManagerClass\09.UiManager\02.BossOneHp</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterTwoBullet.h">
+      <Filter>03.Objects\02.Bullet\MonsterTwoBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>04.Scene\03.Stage\005.EndScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Images.h">
+      <Filter>02.ManagerClass\09.UiManager\03.Images</Filter>
+    </ClInclude>
+    <ClInclude Include="PointItem.h">
+      <Filter>03.Objects\03.Item\03.PointItem</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SnowBrothers.cpp">
+      <Filter>00.WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00.WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>01.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpManager.cpp">
+      <Filter>02.ManagerClass\01.BmpManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserBmp.cpp">
+      <Filter>02.ManagerClass\01.BmpManager\UserBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Objects\00.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>03.Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>02.ManagerClass\02.KeyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>02.ManagerClass\03.ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02.ManagerClass\04.SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>04.Scene\00.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02.ManagerClass\05.CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>04.Scene\02.Edit</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>02.ManagerClass\06.TileManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>02.ManagerClass\06.TileManager\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>02.ManagerClass\07.ScrollManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMenu.cpp">
+      <Filter>04.Scene\01.Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>04.Scene\03.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageOne.cpp">
+      <Filter>04.Scene\03.Stage\001.Stage01</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>04.Scene\03.Stage\000.TuTorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03.Objects\03.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>02.ManagerClass\08.LineManager\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineManager.cpp">
+      <Filter>02.ManagerClass\08.LineManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>03.Objects\02.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03.Objects\01.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterOne.cpp">
+      <Filter>03.Objects\01.Monster\Monster01</Filter>
+    </ClCompile>
+    <ClCompile Include="UiManager.cpp">
+      <Filter>02.ManagerClass\09.UiManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>02.ManagerClass\09.UiManager\Ui</Filter>
+    </ClCompile>
+    <ClCompile Include="Life.cpp">
+      <Filter>02.ManagerClass\09.UiManager\00.Life</Filter>
+    </ClCompile>
+    <ClCompile Include="Spawn.cpp">
+      <Filter>02.ManagerClass\10.SpawnManager\Spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="SpawnManager.cpp">
+      <Filter>02.ManagerClass\10.SpawnManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>02.ManagerClass\11.SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectScene.cpp">
+      <Filter>04.Scene\05.SelectScene</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStage.cpp">
+      <Filter>04.Scene\03.Stage\003.BossStage</Filter>
+    </ClCompile>
+    <ClCompile Include="BossOne.cpp">
+      <Filter>03.Objects\01.Monster\Boss01</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>02.ManagerClass\12.PlayerManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>02.ManagerClass\13.MapManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Minions.cpp">
+      <Filter>03.Objects\01.Monster\Minions</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedItem.cpp">
+      <Filter>03.Objects\03.Item\00.Speed</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerItem.cpp">
+      <Filter>03.Objects\03.Item\01.Power</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeItem.cpp">
+      <Filter>03.Objects\03.Item\02.Range</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStageTwo.cpp">
+      <Filter>04.Scene\03.Stage\004.BossStage2</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTwo.cpp">
+      <Filter>03.Objects\01.Monster\Boss02</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTwoBullet.cpp">
+      <Filter>03.Objects\02.Bullet\BossTwoBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>02.ManagerClass\14.EffectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTwoHp.cpp">
+      <Filter>02.ManagerClass\09.UiManager\01.BossTwoHp</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTwo.cpp">
+      <Filter>03.Objects\01.Monster\Monster02</Filter>
+    </ClCompile>
+    <ClCompile Include="BossOneHp.cpp">
+      <Filter>02.ManagerClass\09.UiManager\02.BossOneHp</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterTwoBullet.cpp">
+      <Filter>03.Objects\02.Bullet\MonsterTwoBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>04.Scene\03.Stage\005.EndScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Images.cpp">
+      <Filter>02.ManagerClass\09.UiManager\03.Images</Filter>
+    </ClCompile>
+    <ClCompile Include="PointItem.cpp">
+      <Filter>03.Objects\03.Item\03.PointItem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SnowBrothers.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SnowBrothers.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
