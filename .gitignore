@@ -1,0 +1,19 @@
+# Visual Studio 빌드/임시 폴더 무시
+.vs/
+x64/
+Debug/
+Release/
+
+# 빌드 산출물 무시
+*.obj
+*.exe
+*.ilk
+*.pdb
+*.log
+*.suo
+*.VC.db
+*.opendb
+*.ipch
+*.user
+*.cache
+*.opensdf
