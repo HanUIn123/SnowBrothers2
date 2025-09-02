@@ -1,5 +1,5 @@
 # SnowBrothers2 (Windows API 기반 게임 프로젝트)
-
+## 시연 영상 [SnowBrothers2 시연 영상 재생](https://youtu.be/7BwQi_yRieA)
 ![GameThumbnail](https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png)
 
 ## ■ 개요
@@ -18,6 +18,3 @@
 - 씬 전환
 - 보스 2개, 각각 패턴 2개씩 
 ---
-
-## 📷 스크린샷
-![스크린샷](https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png)
