@@ -23,5 +23,5 @@
 
 | 보스 1 | 보스 2 | 
 | :---: | :---: | 
-| ![TankAttack](SnowShorts/BossPattern1.gif) | ![TankAttack](SnowShorts/BossPattern1.gif)  | 
+| ![TankAttack](SnowShorts/BossPattern1.gif) | ![TankAttack](SnowShorts/BossPattern2.gif)  | 
 ---
