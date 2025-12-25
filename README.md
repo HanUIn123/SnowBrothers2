@@ -12,9 +12,19 @@
 
 ## ■ 구현 내용
 - 캐릭터 이동 및 점프
+![TankAttack](SnowShorts/playermove.gif)
+
 - 적 몬스터 AI 및 충돌 판정
 - 몬스터 공격시, 눈 스택 변화
 - 눈덩이와 몬스터 충돌 판정
+![TankAttack](SnowShorts/KillMonster.gif)
+
 - 씬 전환
-- 보스 2개, 각각 패턴 2개씩 
+
+![TankAttack](SnowShorts/SceneMove.gif)
+- 보스 2개, 각각 패턴 2개씩
+
+| 보스 1 | 보스 2 | 
+| :---: | :---: | 
+| ![TankAttack](SnowShorts/BossPattern1.gif) | !![TankAttack](SnowShorts/BossPattern1.gif)  | 
 ---
