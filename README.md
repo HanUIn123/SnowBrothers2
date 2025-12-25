@@ -1,6 +1,6 @@
 # SnowBrothers2 (Windows API 기반 게임 프로젝트)
 ## 시연 영상 [SnowBrothers2 시연 영상 재생](https://youtu.be/7BwQi_yRieA)
-<img src="https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png" width="600">
+<img src="https://raw.githubusercontent.com/HanUIn123/SnowBrothers2/main/Images/SnowBrothers.png" width="400">
 
 ## ■ 개요
 - Windows API를 활용한 2D 게임 모작 프로젝트
